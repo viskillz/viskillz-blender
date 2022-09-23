@@ -3,15 +3,16 @@
     "blender-project": "d:\\mct\\viskillz.blend",
     "blender-version": "3.3",
     "blender-base": "c:\\Program Files\\Blender Foundation",
-    "goals": [ {
-        "type": "scenarios-2d",
-        "out": "out-scenarios-2d-2",
-        "groups": [
-            1,
-            3
-        ],
-        "camera": 2
-    },
+    "goals": [
+        {
+            "type": "scenarios-2d",
+            "out": "out-scenarios-2d-2",
+            "groups": [
+                1,
+                3
+            ],
+            "camera": 2
+        },
         {
             "type": "scenarios-2d",
             "out": "out-scenarios-2d-1",
@@ -21,7 +22,6 @@
             ],
             "camera": 1
         },
-       
         {
             "type": "intersections",
             "out": "out-intersections",
@@ -30,7 +30,6 @@
                 3
             ]
         },
-       
         {
             "type": "scenarios-3d",
             "out": "out-scenarios-3d",
