@@ -189,3 +189,7 @@ python d:/mct/viskillz_blender.py d:/mct/configuration.json
 
 1. The wrapper script can invoke each subprocess using function `subprocess.call()`. However, Blender logs a lot in the case of goals `scenarios-2d` and `scenarios-3d`. Thus, an alternate, `async` execution was designed to filter the standard output and standard error channels. In this case, only lines with the prefix `info` are logged.
 2. Blender appends the frame ID automatically to the names of the SVG documents. Thus, each file name ends with `0000.svg` suffix.
+
+## FAQ / Support
+
+If you encourage a problem while preparing the environment or executing our script, do not hesitate to contact us via email toth.robert@inf.unideb.hu. We will post common problems and frequently asked questions here without personal information.
